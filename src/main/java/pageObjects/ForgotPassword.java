@@ -9,8 +9,8 @@ public class ForgotPassword {
 	
 	public WebDriver driver;
 	
-	By email=By.cssSelector("[id='user_email']");
-	By sendMeInstructions=By.cssSelector("[type='submit']");
+	private By email=By.cssSelector("[id='user_email']");
+	private By sendMeInstructions=By.cssSelector("[type='submit']");
 	
 	
 	
