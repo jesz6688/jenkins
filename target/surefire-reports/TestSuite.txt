@@ -1,0 +1,19 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 4, Failures: 2, Errors: 0, Skipped: 0, Time elapsed: 126.057 s <<< FAILURE! - in TestSuite
+basePageNavigation(Academy.HomePage)  Time elapsed: 24.286 s  <<< FAILURE!
+org.openqa.selenium.ElementClickInterceptedException: 
+element click intercepted: Element <a href="https://rahulshettyacademy.com/sign_in/">...</a> is not clickable at point (1324, 16). Other element would receive the click: <div class="listbuilder-popup-content">...</div>
+  (Session info: MicrosoftEdge=90.0.818.46)
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'VISHESH-RAAJ', ip: '192.168.0.108', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_162'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Capabilities {acceptInsecureCerts: false, browserName: msedge, browserVersion: 90.0.818.46, javascriptEnabled: true, ms:edgeOptions: {debuggerAddress: localhost:59033}, msedge: {msedgedriverVersion: 90.0.818.46 (32aa22d4a337c9..., userDataDir: C:\Users\VISHES~1\AppData\L...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Session ID: e14f55c1e0222efdece2cd4b34f1fd4d
+	at Academy.HomePage.basePageNavigation(HomePage.java:41)
+
+validateAppTitle(Academy.validateTitle)  Time elapsed: 0.134 s  <<< FAILURE!
+java.lang.AssertionError: expected [FEATURED CO123URSES] but found [FEATURED COURSES]
+	at Academy.validateTitle.validateAppTitle(validateTitle.java:43)
+
