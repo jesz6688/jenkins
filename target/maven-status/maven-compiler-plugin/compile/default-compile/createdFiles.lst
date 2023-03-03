@@ -1,6 +1,2 @@
-pageObjects\LandingPage.class
-pageObjects\LoginPage.class
-resources\base.class
 pageObjects\ForgotPassword.class
-Academy\App.class
 resources\ExtentReporterNG.class

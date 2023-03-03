@@ -1,6 +1,6 @@
-C:\Users\Vishesh and Varsha\Desktop\Git_Projects\E2EProject\src\main\java\Academy\App.java
-C:\Users\Vishesh and Varsha\Desktop\Git_Projects\E2EProject\src\main\java\pageObjects\LandingPage.java
-C:\Users\Vishesh and Varsha\Desktop\Git_Projects\E2EProject\src\main\java\pageObjects\ForgotPassword.java
-C:\Users\Vishesh and Varsha\Desktop\Git_Projects\E2EProject\src\main\java\resources\base.java
-C:\Users\Vishesh and Varsha\Desktop\Git_Projects\E2EProject\src\main\java\pageObjects\LoginPage.java
-C:\Users\Vishesh and Varsha\Desktop\Git_Projects\E2EProject\src\main\java\resources\ExtentReporterNG.java
+D:\jenkins\src\main\java\resources\base.java
+D:\jenkins\src\main\java\resources\ExtentReporterNG.java
+D:\jenkins\src\main\java\pageObjects\LoginPage.java
+D:\jenkins\src\main\java\pageObjects\LandingPage.java
+D:\jenkins\src\main\java\Academy\App.java
+D:\jenkins\src\main\java\pageObjects\ForgotPassword.java

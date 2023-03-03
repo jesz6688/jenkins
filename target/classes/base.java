@@ -30,9 +30,13 @@ public class base {
 		
 		System.out.println(browserName);
 //mvn clean install test -Dbrowser=chrome
-		if (browserName.equalsIgnoreCase("chrome")) {
+		if (browserName.contains("chrome")) {
+			ChromeOptions opt = new ChromeOptions();
+			if(browserName.contains("headless")) {
+				opt.addArguments("--headless");
+			}
 			System.setProperty("webdriver.chrome.driver", "./server/chromedriver.exe");
-			driver = new ChromeDriver();
+			driver = new ChromeDriver(opt);
 			// execute in chrome driver
 
 		} else if (browserName.equalsIgnoreCase("edge")) {
