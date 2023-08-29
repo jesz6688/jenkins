@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Suite]" verbose="0">
+  <listeners>
+    <listener class-name="Academy.Listeners"/>
+  </listeners>
+  <test name="Validating User login(failed)">
+    <classes>
+      <class name="Academy.validateTitle">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.validateTitle -->
+      <class name="Academy.HomePage">
+        <methods>
+          <include name="basePageNavigation"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.HomePage -->
+      <class name="Academy.validateNavigationBar">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.validateNavigationBar -->
+    </classes>
+  </test> <!-- Validating User login(failed) -->
+  <test name="Validating title in the Page(failed)">
+    <classes>
+      <class name="Academy.validateTitle">
+        <methods>
+          <include name="validateAppTitle"/>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.validateTitle -->
+      <class name="Academy.HomePage">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.HomePage -->
+      <class name="Academy.validateNavigationBar">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.validateNavigationBar -->
+    </classes>
+  </test> <!-- Validating title in the Page(failed) -->
+  <test name="Validating navigation Bar(failed)">
+    <classes>
+      <class name="Academy.validateTitle">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.validateTitle -->
+      <class name="Academy.HomePage">
+        <methods>
+          <include name="initialize"/>
+        </methods>
+      </class> <!-- Academy.HomePage -->
+      <class name="Academy.validateNavigationBar">
+        <methods>
+          <include name="initialize"/>
+          <include name="validateAppNavBar"/>
+        </methods>
+      </class> <!-- Academy.validateNavigationBar -->
+    </classes>
+  </test> <!-- Validating navigation Bar(failed) -->
+</suite> <!-- Failed suite [Suite] -->
