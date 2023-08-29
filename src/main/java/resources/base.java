@@ -7,8 +7,8 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.edge.EdgeDriver;
-import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.apache.commons.io.FileUtils;
 import org.openqa.selenium.OutputType;
@@ -19,6 +19,10 @@ public class base {
 	public WebDriver driver;
 	public Properties prop;
 
+	/**
+	 * @return
+	 * @throws IOException
+	 */
 	public WebDriver initializeDriver() throws IOException {
 
 		prop = new Properties();
